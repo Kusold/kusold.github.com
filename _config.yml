@@ -7,3 +7,5 @@ future: false #Publish posts with a future date.
 
 author:
   name: Mike Kusold
+  github: kusold
+  twitter: mikekusold
