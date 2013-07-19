@@ -3,5 +3,7 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-gem 'jekyll'
-gem 'redcarpet'
+# Github pages gem versions
+gem "jekyll",     '=1.0.3'
+gem 'liquid',     '=2.5.0'
+gem 'redcarpet',  '=2.2.2'
