@@ -5,6 +5,7 @@ destination: _site #The directory where Jekyll will write files
 timezone: America/Denver
 future: false #Publish posts with a future date.
 permalink: none
+baseurl: /
 
 author:
   name: Mike Kusold
