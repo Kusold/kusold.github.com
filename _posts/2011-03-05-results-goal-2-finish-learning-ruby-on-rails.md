@@ -12,7 +12,7 @@ categories:
 
 <div id="goal02-rating"></div>
 <script type="text/javascript">
-$('#goal02-rating').raty({ readOnly: true, score: 4.0 });
+$('#goal02-rating').raty({ readOnly: true, score: 4.0 , path: '{{ site.basurl }}assets/img/raty' });
 </script>
 
 After I posted my goal on Sunday, @vrish88 told me about a great site called Rails for Zombies via twitter.
