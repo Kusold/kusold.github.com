@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #1EA286;
+}
+
+.navbar-brand {
+  color: #434244;
+}
+
+.navbar-nav>li>a {
+  color: #434244;
+}
+
+body {
+  color: #434244;
+}
+
+a {
+  color: #1EA286;
+}
+
+.posts>li>a {
+  font-size: 18px;
+}
