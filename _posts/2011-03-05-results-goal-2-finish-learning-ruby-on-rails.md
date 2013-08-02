@@ -30,6 +30,6 @@ On Monday, I completed the TryRuby.org tutorials. One of the interesting languag
 
 On Wednesday and Saturday, I completed all of the Rails for Zombies tutorials. The Rails for Zombies tutorial was good at explaining the language, but not as much as how to use the language. Because all the labs were done in an in-browser command line, I don't actually have any work to show off. I still want to finish the Lynda tutorial because it walks you through an actual example.
 
-Proof of Completion: ![](/images/posts/Goal02.png)
+Proof of Completion: ![]({{ site.baseurl }}/assets/img/posts/Goal02.png)
 
 Do I understand the basics of Ruby and Rails? Yes. Can I fully develop an application with no reference material? Nope. But that will come with more experience. I am hoping that my plane flight to Utah for spring break(!!!) will give me time to learn more about Rails. I would like to use it to start my project website that I have been kicking around for the past 3/4 of a year.

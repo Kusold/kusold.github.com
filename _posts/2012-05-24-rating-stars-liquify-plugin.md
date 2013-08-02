@@ -22,4 +22,4 @@ $('#star').raty({ readOnly: true, score: 4.5 });
 $('#star').raty({ readOnly: true, score: 5 });
 
 
-[![](/images/github_logo.png)](https://github.com/Kusold/octopress-liquify-rating)
+[![]({{ site.baseurl }}/assets/img/github_logo.png)](https://github.com/Kusold/octopress-liquify-rating)

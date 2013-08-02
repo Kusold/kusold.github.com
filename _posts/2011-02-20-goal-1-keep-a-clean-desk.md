@@ -15,5 +15,5 @@ I realize that this is a pretty boring goal for it being my first goal on this w
 My goal is to get rid of all this mess (and not by stacking it up somewhere else) on Sunday, then to keep it just as clean for the remainder of the week. It isn't a hard goal, but I have a lot of school related tasks so I want a low time commitment.
 
 
-[![](/images/posts/Goal01-CleanDesk-1024x669.jpg)](/images/posts/Goal01-CleanDesk.jpg)
+[![]({{ site.baseurl }}/assets/img/posts/Goal01-CleanDesk-1024x669.jpg)]({{ site.baseurl }}/assets/img/posts/Goal01-CleanDesk.jpg)
 I cleaned off my desk, let's see what it looks like on Saturday.
