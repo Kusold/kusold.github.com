@@ -4,7 +4,7 @@ markdown: redcarpet
 destination: _site #The directory where Jekyll will write files
 timezone: America/Denver
 future: false #Publish posts with a future date.
-baseurl: /blog/
+baseurl: /
 
 author:
   name: Mike Kusold
