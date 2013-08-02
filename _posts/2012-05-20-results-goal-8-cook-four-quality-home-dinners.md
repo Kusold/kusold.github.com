@@ -1,12 +1,16 @@
 ---
 layout: post
 title: "Results: Goal #8 - Cook Four Quality Home Dinners"
+slug: results-goal-8-cook-four-quality-home-dinners
 date: 2012-05-20 16:16
 comments: true
 categories:
 - GoalAWeek
 ---
-$('#star').raty({ readOnly: true, score: 1 });
+<div id="goal08-rating"></div>
+<script type="text/javascript">
+$('#goal08-rating').raty({ readOnly: true, score: 1 });
+</script>
 
 Whoa! So I'm only 6 months late in posting the results from my last goal. I'm going to try my best to give an accurate reflection of how I thought I succeeded in my goal, but given the time it might be a little hazy.
 

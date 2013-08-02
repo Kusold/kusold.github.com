@@ -9,8 +9,10 @@ wordpress_id: '152'
 categories:
 - GoalAWeek
 ---
-
-$('#star').raty({ readOnly: true, score: 0 });
+<div id="goal07-rating"></div>
+<script type="text/javascript">
+$('#goal07-rating').raty({ readOnly: true, score: 0 });
+</script>
 
 These past few goals have been disasters. This goal was originally extended by a week due to it being monsoon season in Columbus. Then I extended the goal another week because at the end of two weeks, I only took one photo. It wasn't that I didn't try to reach the goal. I carried around my camera for two straight weeks (I lost interest midway through the third week), but I couldn't find anything that made me want to take my camera out of my pocket.
 

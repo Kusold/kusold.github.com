@@ -12,7 +12,10 @@ tags:
 - Results
 ---
 
-$('#star').raty({ readOnly: true, score: 3.0 });
+<div id="goal01-rating"></div>
+<script type="text/javascript">
+$('#goal01-rating').raty({ readOnly: true, score: 3.0 });
+</script>
 
 I consider this week's goal a minor success based on a technicality. When I posted the goal last Sunday, I thought it would be cool to take a photo of my desk every night. As you can see, that didn't go too well. It is difficult to remember to do something for an entire week.
 

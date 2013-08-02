@@ -10,7 +10,10 @@ categories:
 - GoalAWeek
 ---
 
-$('#star').raty({ readOnly: true, score: 4 });
+<div id="goal03-rating"></div>
+<script type="text/javascript">
+$('#goal03-rating').raty({ readOnly: true, score: 4.0 });
+</script>
 
 ![](/assets/img/posts/Goal03-02.png)
 

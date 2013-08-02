@@ -10,10 +10,10 @@ categories:
 - GoalAWeek
 ---
 
-$('#star').raty({ readOnly: true, score: 4 });
-
-
-
+<div id="goal06-rating"></div>
+<script type="text/javascript">
+$('#goal06-rating').raty({ readOnly: true, score: 4.0 });
+</script>
 
 
 	
