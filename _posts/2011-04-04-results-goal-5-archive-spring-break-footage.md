@@ -10,7 +10,7 @@ categories:
 - GoalAWeek
 ---
 
-{% rating 0 %}
+$('#star').raty({ readOnly: true, score: 0 });
 
 This was an absolute failure. I opened up iPhoto once and tagged about one video. So now that I know that I failed, the question is why? Part of it is time management. I played a lot of Call of Duty: Black Ops with my roommate this week. That game is so addicting, but not as addicting as [Castle Crashers](http://www.xbox.com/en-us/games/c/castlecrashersxboxlivearcade/) which I purchased on Saturday. Consequentially, if anyone wants to play contact me via Twitter and I'll give you my Xbox gamertag.
 

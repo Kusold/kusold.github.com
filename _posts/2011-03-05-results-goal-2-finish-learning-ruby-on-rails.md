@@ -10,11 +10,11 @@ categories:
 - GoalAWeek
 ---
 
-{% rating 4.0 %}
+$('#star').raty({ readOnly: true, score: 4.0 });
 
 After I posted my goal on Sunday, @vrish88 told me about a great site called Rails for Zombies via twitter.
 
-{% tweet https://twitter.com/vrish88/statuses/42042651251441664 %}
+{% tweet https://twitter.com/vrish88/statuses/42042651251441664 });
 
 Since the Lynda tutorial was a tad bit boring, and zombies are anything but boring, I decided to jump ship and complete all the Zombie tutorials instead.
 

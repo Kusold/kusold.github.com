@@ -10,7 +10,7 @@ categories:
 - GoalAWeek
 ---
 
-{% rating 4 %}
+$('#star').raty({ readOnly: true, score: 4 });
 
 ![](/images/posts/Goal03-02.png)
 
