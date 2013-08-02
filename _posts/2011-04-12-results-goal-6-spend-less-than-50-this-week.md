@@ -12,7 +12,7 @@ categories:
 
 <div id="goal06-rating"></div>
 <script type="text/javascript">
-$('#goal06-rating').raty({ readOnly: true, score: 4.0 , path: '{{ site.basurl }}assets/img/raty' });
+$('#goal06-rating').raty({ readOnly: true, score: 4.0 , path: '{{ site.baseurl }}assets/img/raty' });
 </script>
 
 

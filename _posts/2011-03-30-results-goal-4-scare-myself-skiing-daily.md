@@ -12,7 +12,7 @@ categories:
 
 <div id="goal04-rating"></div>
 <script type="text/javascript">
-$('#goal04-rating').raty({ readOnly: true, score: 1 , path: '{{ site.basurl }}assets/img/raty' });
+$('#goal04-rating').raty({ readOnly: true, score: 1 , path: '{{ site.baseurl }}assets/img/raty' });
 </script>
 
 Whoa! It's Wednesday already? This goal achieved a 1 star because part of achieving my goal is to post about the success on Saturday/Sunday. I missed the mark a tad bit on this one.
