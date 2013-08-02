@@ -83,7 +83,7 @@ Note: If you plan on running Cucumber tests, you need to install [xvfb](http://e
 
 	$ yum install xvfb
 
-{% codeblock /etc/init.d lang:bash %}
+```bash
 #!/bin/bash
 #chkconfig: 345 95 50
 #description: Starts xvfb on display 99
@@ -101,7 +101,7 @@ stop)
 	killall Xvfb
 ;;
 esac 
-{% endcodeblock %}
+```
 
 ### Wrap Up ###
 My personal recommendation is to have multiple builds in Jenkins, instead of one large build. We currently have our jasmine/rspec suite checking for new commits every 5 minutes, while our cucumber build checks for new commits every hour. This helps to provide quick feedback to the developers, and prevents them from having to wait for Cucumber to finish running.

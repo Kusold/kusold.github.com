@@ -6,7 +6,7 @@ comments: true
 categories:
 - GoalAWeek
 ---
-{% rating 1 %}
+$('#star').raty({ readOnly: true, score: 1 });
 
 Whoa! So I'm only 6 months late in posting the results from my last goal. I'm going to try my best to give an accurate reflection of how I thought I succeeded in my goal, but given the time it might be a little hazy.
 

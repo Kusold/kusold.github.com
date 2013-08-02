@@ -10,7 +10,7 @@ categories:
 - GoalAWeek
 ---
 
-{% rating 1 %}
+$('#star').raty({ readOnly: true, score: 1 });
 
 Whoa! It's Wednesday already? This goal achieved a 1 star because part of achieving my goal is to post about the success on Saturday/Sunday. I missed the mark a tad bit on this one.
 
