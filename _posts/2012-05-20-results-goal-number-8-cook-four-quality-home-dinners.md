@@ -12,11 +12,11 @@ Whoa! So I'm only 6 months late in posting the results from my last goal. I'm go
 
 On the Sunday of that week I picked out 4 recipes and went shopping for the ingredients. During the week, I made two meals.
 
-![]({{ site.baseurl }}/assets/img/posts/Goal08-Chicken.jpg)
+![](/assets/img/posts/Goal08-Chicken.jpg)
 
 The chicken dinner turned out OK. I ended up burning some of the rice, but the glaze was delicious.
 
-![]({{ site.baseurl }}/assets/img/posts/Goal08-Chili.jpg)
+![](/assets/img/posts/Goal08-Chili.jpg)
 
 The chili on the other hand was delicious. This was my first time making chili, and I think I might need to enter the next chili cook off. I used ground turkey, chili beans, onions, green peppers, some sort of tomatoes that came in a can, and a jar of chopped jalapenos.
 

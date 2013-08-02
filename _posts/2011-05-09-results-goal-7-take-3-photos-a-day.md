@@ -14,5 +14,5 @@ $('#star').raty({ readOnly: true, score: 0 });
 
 These past few goals have been disasters. This goal was originally extended by a week due to it being monsoon season in Columbus. Then I extended the goal another week because at the end of two weeks, I only took one photo. It wasn't that I didn't try to reach the goal. I carried around my camera for two straight weeks (I lost interest midway through the third week), but I couldn't find anything that made me want to take my camera out of my pocket.
 
-[![]({{ site.baseurl }}/assets/img/posts/Goal05-1024x768.jpg)]({{ site.baseurl }}/assets/img/posts/Goal05.jpg)
+[![](/assets/img/posts/Goal05-1024x768.jpg)](/assets/img/posts/Goal05.jpg)
 The one photo I took
