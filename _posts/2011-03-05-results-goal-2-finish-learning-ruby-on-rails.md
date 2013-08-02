@@ -14,7 +14,8 @@ $('#star').raty({ readOnly: true, score: 4.0 });
 
 After I posted my goal on Sunday, @vrish88 told me about a great site called Rails for Zombies via twitter.
 
-{% tweet https://twitter.com/vrish88/statuses/42042651251441664 });
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/MikeKusold">@MikeKusold</a> nicely done sir. another great site for learning rails is <a href="http://t.co/89KMMwt">http://t.co/89KMMwt</a></p>&mdash; Michael Lavrisha (@vrish88) <a href="https://twitter.com/vrish88/statuses/42042651251441664">February 28, 2011</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Since the Lynda tutorial was a tad bit boring, and zombies are anything but boring, I decided to jump ship and complete all the Zombie tutorials instead.
 
