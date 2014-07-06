@@ -4,6 +4,7 @@
 
 .navbar-brand {
   color: #434244;
+  width: 100%;
 }
 
 .navbar-nav>li>a {
