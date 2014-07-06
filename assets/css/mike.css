@@ -22,3 +22,11 @@ a {
 .posts>li>a {
   font-size: 18px;
 }
+
+.avatar {
+  border-radius: 200px;
+}
+
+.vmiddle {
+  margin-top: 50%
+}
