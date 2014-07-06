@@ -25,6 +25,8 @@ a {
 
 .avatar {
   border-radius: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .vmiddle {
