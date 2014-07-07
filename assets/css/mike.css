@@ -59,3 +59,7 @@ p {
 ul.posts {
   list-style-type: none;
 }
+
+div[id$="-rating"] {
+ width: 105px !important;
+}
