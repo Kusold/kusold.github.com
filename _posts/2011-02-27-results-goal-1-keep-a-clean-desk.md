@@ -17,7 +17,7 @@ tags:
 $('#goal01-rating').raty({ readOnly: true, score: 3.0, path: '{{ site.baseurl }}assets/img/raty' });
 </script>
 
-I consider this week's goal a minor success based on a technicality. When I posted the goal last Sunday, I thought it would be cool to take a photo of my desk every night. As you can see, that didn't go too well. It is difficult to remember to do something for an entire week.
+I consider this week's goal a minor success based on a technicality. When I posted the goal last Sunday, I thought it would be cool to take a photo of my desk every night. As you can see, that didn't go too well. It is difficult to remember to do something for an entire week.
 
 The reason why I consider this week to be a mild success is mainly because my desk is a lot cleaner than it was, but that was all from Sunday. I did remember this goal until about Wednesday, so my desk didn't get too bad. There was a huge urge for me to clean it up and then take the photo. I resisted though. Here are my results from the week:
 
