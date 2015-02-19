@@ -166,4 +166,6 @@ ul.posts span {
 
 
 /* CUSTOM */
-
+iframe {
+  border: none;
+}

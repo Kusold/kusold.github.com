@@ -4,3 +4,6 @@
 [submodule "talks/aws-user-space"]
 	path = talks/aws-user-space
 	url = https://kusold@bitbucket.org/kusold/aws-user-space.git
+[submodule "talks/cross-compile-golang"]
+	path = talks/cross-compile-golang
+	url = https://kusold@bitbucket.org/kusold/cross-compile-golang.git
