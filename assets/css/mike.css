@@ -104,3 +104,7 @@ div[id$="-rating"] {
 #talks h2, #talks .description {
   margin-bottom: 0;
 }
+
+iframe {
+  border: none;
+}
