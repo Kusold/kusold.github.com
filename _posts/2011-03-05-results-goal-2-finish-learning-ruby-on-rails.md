@@ -12,7 +12,12 @@ categories:
 
 <div id="goal02-rating"></div>
 <script type="text/javascript">
-$('#goal02-rating').raty({ readOnly: true, score: 4.0 , path: '{{ site.baseurl }}assets/img/raty' });
+var interval = setInterval(function() {
+  if(typeof window.$ !== 'undefined') {
+    window.clearInterval(interval);
+    $('#goal02-rating').raty({ readOnly: true, score: 4.0 , path: '{{ site.baseurl }}assets/img/raty' });
+  }
+}, 250);
 </script>
 
 After I posted my goal on Sunday, @vrish88 told me about a great site called Rails for Zombies via twitter.
@@ -24,7 +29,7 @@ Since the Lynda tutorial was a tad bit boring, and zombies are anything but bori
 
 On Monday, I completed the TryRuby.org tutorials. One of the interesting language choices that Ruby makes is that functions that don't preserve your data end in a '!'. I like this a lot because it is a reminder that your data will be changed.
 
-    
+
 <span style="color: #3366ff;">>> ticket = [12,37,31]</span><br>
 <span style="color: #ff0000;">=> [12, 37, 31]</span><br>
 <span style="color: #3366ff;">>> ticket.sort!</span><br>

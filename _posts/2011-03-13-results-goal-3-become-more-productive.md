@@ -12,7 +12,12 @@ categories:
 
 <div id="goal03-rating"></div>
 <script type="text/javascript">
-$('#goal03-rating').raty({ readOnly: true, score: 4.0 , path: '{{ site.baseurl }}assets/img/raty' });
+var interval = setInterval(function() {
+  if(typeof window.$ !== 'undefined') {
+    window.clearInterval(interval);
+    $('#goal03-rating').raty({ readOnly: true, score: 4.0 , path: '{{ site.baseurl }}assets/img/raty' });
+  }
+}, 250);
 </script>
 
 ![](/assets/img/posts/Goal03-02.png)

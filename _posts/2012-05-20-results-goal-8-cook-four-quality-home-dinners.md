@@ -9,7 +9,12 @@ categories:
 ---
 <div id="goal08-rating"></div>
 <script type="text/javascript">
-$('#goal08-rating').raty({ readOnly: true, score: 1 , path: '{{ site.baseurl }}assets/img/raty' });
+var interval = setInterval(function() {
+  if(typeof window.$ !== 'undefined') {
+    window.clearInterval(interval);
+    $('#goal08-rating').raty({ readOnly: true, score: 1 , path: '{{ site.baseurl }}assets/img/raty' });
+  }
+}, 250);
 </script>
 
 Whoa! So I'm only 6 months late in posting the results from my last goal. I'm going to try my best to give an accurate reflection of how I thought I succeeded in my goal, but given the time it might be a little hazy.
