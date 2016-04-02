@@ -1,11 +1,12 @@
 name: Mike Kusold
-pygments: true
+highlighter: pygments
 markdown: redcarpet
 destination: _site #The directory where Jekyll will write files
 timezone: America/Denver
 future: false #Publish posts with a future date.
 permalink: none
 baseurl: /
+exclude: [vendor]
 
 author:
   name: Mike Kusold
