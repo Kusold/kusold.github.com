@@ -1,6 +1,7 @@
 _site
 
-*.sw{p,o}
+*.swp
+*.swo
 .*-cache
 Gemfile.lock
 .bundle/
