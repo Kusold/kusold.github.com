@@ -1,0 +1,41 @@
+body {
+  margin: 0 0;
+}
+
+#main {
+  background: url(SevenSprings-SkiLesson-97.png) 50% 0% no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+div#content {
+  background-color: rgba(35,35,35,0.75);
+  width: 80%;
+  max-width: 800px;
+  margin: 10% auto;
+  border: none;
+  border-radius: 0.75em;
+  color: #F0F0F0;
+  font-size: 1em;
+  padding: 2em 2em;
+
+}
+
+.rsvp {
+  text-align: center;
+}
+
+a {
+  color: #F0F0F0;
+  decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+li:before {
+  content: '\2744';
+  padding-right: 5px;
+}

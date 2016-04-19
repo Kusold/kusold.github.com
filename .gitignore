@@ -1,6 +1,7 @@
 _site
 
-*.swp
+*.sw{p,o}
 .*-cache
 Gemfile.lock
 .bundle/
+.DS_Store
