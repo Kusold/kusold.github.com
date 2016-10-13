@@ -10,7 +10,7 @@ categories: Development
 
 If you receive a similar message when you try to start your `rails console`:
 
-```
+```bash
 ❯ bundle exec rails console
 /Users/mike/.rbenv/versions/2.2.2/lib/ruby/2.2.0/irb/completion.rb:9:in `require': dlopen(/Users/mike/.rbenv/versions/2.2.2/lib/ruby/2.2.0/x86_64-darwin15/readline.bundle, 9): Library not loaded: /usr/local/opt/readline/lib/libreadline.6.dylib (LoadError)
   Referenced from: /Users/mike/.rbenv/versions/2.2.2/lib/ruby/2.2.0/x86_64-darwin15/readline.bundle
@@ -31,25 +31,25 @@ Then you most likely have an issue with `readline`.
 
 Install `readline` and `ruby-build`:
 
-```
+```bash
 ❯ brew install readline ruby-build
 ```
 
 Then reinstall ruby (assuming you are using rbenv):
 
-```
+```bash
 ❯ env CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline` rbenv install 2.2.2
 ```
 
 Then reset your gems:
 
-```
+```bash
 ❯ gem pristine --all
 ```
 
 Enjoy your working `rails console`!
 
-```
+```bash
 ❯ bundle exec rails console
 Loading development environment (Rails 4.2.1)
 irb(main):001:0> puts "Hello World"

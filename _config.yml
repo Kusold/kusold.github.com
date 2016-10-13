@@ -1,6 +1,8 @@
 name: Mike Kusold
 highlighter: pygments
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+  input: GFM
 destination: _site #The directory where Jekyll will write files
 timezone: America/Denver
 future: false #Publish posts with a future date.
