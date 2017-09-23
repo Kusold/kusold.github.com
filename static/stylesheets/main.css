@@ -18,7 +18,7 @@ header h1 {
 }
 
 main {
-  margin: 5em;
+  margin: 5rem;
 }
 
 /* Text */
@@ -27,9 +27,14 @@ h1, h2, h3, h4 {
   margin: 0;
 
 }
+
 h1 {
   font-size: 4rem;
   position: relative;
+}
+
+a {
+  color: #1EA286;
 }
 
 main h1:before, main h1:after {
@@ -61,8 +66,9 @@ h3 {
 }
 
 p {
-  font-size: 2.5em;
-  line-height: 1.75em;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  margin: 0;
 }
 
 /*
@@ -134,10 +140,19 @@ nav .logo {
 img.portrait {
   width: 50vw;
   border-radius: 1000px;
+  margin: 2ch;
 }
 
 .section-header {
   margin: 1ch;
   font-variant: small-caps;
   text-transform: capitalize;
+}
+
+.talk {
+  margin: 4ch 0;
+}
+.talk .presented-at {
+  font-size: 1.25rem;
+  color: gray;
 }

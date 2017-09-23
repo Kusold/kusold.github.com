@@ -1,0 +1,23 @@
+{{ define "header" }}
+    <header class="background">
+      {{ partial "navigation.html" . }}
+      <div class="banner">
+        <div class="container vcenter">
+          <h1>Speaking</h1>
+        </div>
+      </div>
+    </header>
+{{ end }}
+{{ define "main" }}
+  <div>
+    {{ range .Data.Pages.ByDate.Reverse }}
+      <div class="talk">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+        <p>{{ .Description | markdownify }}</p>
+        <div class="presented-at">
+          Presented: {{.Date.Format "January 02, 2006"}} @ <a href="{{ .Params.event_url }}">{{ .Params.location }}</a>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
