@@ -1,0 +1,143 @@
+/*
+ * Elements
+ */
+html, body {
+  height: 100%;
+  margin: 0;
+  /*Default browser size is 16. 16*0.625 == 10*/           
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  height: 100vh;
+}
+
+header h1 {
+  font-size: 5.6rem;
+}
+
+main {
+  margin: 5em;
+}
+
+/* Text */
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+
+}
+h1 {
+  font-size: 4rem;
+  position: relative;
+}
+
+main h1:before, main h1:after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  width: 2ch;
+  margin: 0 1ch;
+  display: inline-block;
+  zoom: 1;
+  background: black;
+}
+
+main h1:before {
+  left: 100%;
+}
+
+main h1:after {
+  right: 100%;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2.5em;
+  line-height: 1.75em;
+}
+
+/*
+ * Navigation
+ */
+nav {
+  background: white;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+navitem {
+  margin: 0 2ch;
+}
+
+nav .logo {
+  flex-grow: 2;
+  margin: 0 2ch;
+}
+
+/*
+ * Classes
+ */
+.full-size {
+  height: 100%;
+  width: 100%;
+}
+
+.banner:before {
+  background: white;
+  z-index: -2;
+}
+
+.banner {
+  height: 100%;
+  width: 100%;
+  display: block;
+  /* position: relative; */
+  color: white;
+}
+
+.banner:after {
+  content: "";
+  background-image: url("/images/mountains-clouds-forest-fog.jpg");
+  opacity: 0.75;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+
+.container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.container.vcenter {
+  justify-content: center;
+}
+
+img.portrait {
+  width: 50vw;
+  border-radius: 1000px;
+}
+
+.section-header {
+  margin: 1ch;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}

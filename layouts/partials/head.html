@@ -1,0 +1,18 @@
+<head>
+  <title>
+    {{ block "title" . }}
+     {{ .Site.Title }}
+    {{ end }}
+  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+  <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+  <meta name="keywords" content="{{ with .Site.Params.keywords }}{{ . }}{{ end }}">
+  {{ .Hugo.Generator }}
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="/stylesheets/main.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+  {{ partial "analytics.html" . }}
+</head>
