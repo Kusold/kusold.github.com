@@ -161,3 +161,8 @@ img.portrait {
   font-size: 1.25rem;
   color: gray;
 }
+
+.presentation iframe {
+  width: 75vw;
+  height: 42.19vw;
+}

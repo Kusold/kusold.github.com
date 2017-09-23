@@ -5,3 +5,5 @@ date: "2015-02-18"
 location: Boulder Gophers
 event_url: https://www.meetup.com/Boulder-Gophers/events/219782274/
 ---
+
+{{% presentation src="/submodules/cross-compile-golang/index.html" %}}

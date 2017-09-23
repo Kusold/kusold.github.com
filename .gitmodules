@@ -1,9 +1,9 @@
-[submodule "talks/lessons-learned-from-todoist-habitrpg"]
-	path = talks/lessons-learned-from-todoist-habitrpg
+[submodule "static/submodules/lessons-learned-from-todoist-habitrpg"]
+	path = static/submodules/lessons-learned-from-todoist-habitrpg
 	url = https://kusold@bitbucket.org/kusold/lessons-learned-from-todoist-habitrpg.git
-[submodule "talks/aws-user-space"]
-	path = talks/aws-user-space
+[submodule "static/submodules/aws-user-space"]
+	path = static/submodules/aws-user-space
 	url = https://kusold@bitbucket.org/kusold/aws-user-space.git
-[submodule "talks/cross-compile-golang"]
-	path = talks/cross-compile-golang
+[submodule "static/submodules/cross-compile-golang"]
+	path = static/submodules/cross-compile-golang
 	url = https://kusold@bitbucket.org/kusold/cross-compile-golang.git
