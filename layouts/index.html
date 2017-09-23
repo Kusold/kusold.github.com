@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{ define "header" }}
     <header class="background">
       {{ partial "navigation.html" . }}
       <div class="banner">
@@ -8,29 +8,29 @@
         </div>
       </div>
     </header>
-    <main>
-      <div class="container">
-        <p>
-        <h1>Mike Kusold</h2>
-        <h3>Denver, CO</h3>
-        </p>
-        <img class="portrait" src="/images/portrait.jpg">
-      </div>
-      <div class="container">
-        <h2 class="section-header">Full stack problem solver</h2>
-        <p>
-          I specialize in helping early stage start ups rapidly iterate products to acheive market fit.
-          It is important with early stage companies to define a healthy development culture and to prevent unnecessary design decisions that complicate the codebase.
-        </p>
-      </div>
-      <div class="container">
-        <h2 class="section-header">Development philosophy</h2>
-        <p>
-          Before beginning to implement any solutions, it is important to fully investigate the problem so that the root cause is solved instead of the symptom.
-          After identifying the cause, all code should be written in an easily readable and testable style.
-          Maintainability is always be a goal.
-          If a solution is difficult to understand, then the solution is just a looming future problem.
-        </p>
-      </div>
-    </main>
+{{ end }}
+{{ define "main" }}
+  <div class="container">
+    <p>
+    <h1>Mike Kusold</h2>
+    <h3>Denver, CO</h3>
+    </p>
+    <img class="portrait" src="/images/portrait.jpg">
+  </div>
+  <div class="container">
+    <h2 class="section-header">Full stack problem solver</h2>
+    <p>
+      I specialize in helping early stage start ups rapidly iterate products to acheive market fit.
+      It is important with early stage companies to define a healthy development culture and to prevent unnecessary design decisions that complicate the codebase.
+    </p>
+  </div>
+  <div class="container">
+    <h2 class="section-header">Development philosophy</h2>
+    <p>
+      Before beginning to implement any solutions, it is important to fully investigate the problem so that the root cause is solved instead of the symptom.
+      After identifying the cause, all code should be written in an easily readable and testable style.
+      Maintainability is always be a goal.
+      If a solution is difficult to understand, then the solution is just a looming future problem.
+    </p>
+  </div>
 {{ end }}
