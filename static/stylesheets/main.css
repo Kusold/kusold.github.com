@@ -88,6 +88,11 @@ navitem {
   margin: 0 2ch;
 }
 
+navitem a {
+  text-decoration: none;
+  color: black;
+}
+
 nav .logo {
   flex-grow: 2;
   margin: 0 2ch;

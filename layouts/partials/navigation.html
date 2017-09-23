@@ -1,6 +1,6 @@
 <nav>
-    <span class="logo">M|{</span>
-    <navitem>Resume</navitem>
-    <navitem>Talks</navitem>
-    <navitem>Contact</navitem>
+    <navitem class="logo"><a href="{{ .Site.BaseURL }}">M|{</a></navitem>
+      {{ range .Site.Menus.main }}
+        <navitem><a href="{{ .URL }}">{{ .Name }}</a></navitem>
+      {{ end }}
 </nav>
